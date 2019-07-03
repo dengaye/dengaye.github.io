@@ -68,7 +68,7 @@
 
 
 
-  <meta name="keywords" content="HTTP,">
+  <meta name="keywords" content="react,">
 
 
 
@@ -79,18 +79,18 @@
 
 
 
-<meta name="description" content="HTTP POST 方式发送数据给服务器，请求主体的类型由Content-Type指定。在响应中，Content-Type标头告诉客户端实际返回的内容的内容类型 application/x-www-form-urlencoded一般通过HTML form提交的POST请求，在不设置enctype属性的情况下，最终会以application/x-www-form-urlencoded方式提交数据">
-<meta name="keywords" content="HTTP">
+<meta name="description" content="12345this.state = &amp;#123;  commentData: [], &amp;#125;// 需要对commentData添加元素 使用一个中间变量1234567setCommentData(comment) &amp;#123;  const commentData = this.state.commentData;  commentData.push(comment);  this.setS">
+<meta name="keywords" content="react">
 <meta property="og:type" content="article">
-<meta property="og:title" content="POST常见的提交数据的方式">
-<meta property="og:url" content="http://yoursite.com/2019/06/20/POST常见的提交数据的方式/index.html">
+<meta property="og:title" content="react中数据为数组时,怎么使用setState合适">
+<meta property="og:url" content="http://yoursite.com/2019/07/03/react中数据为数组时-怎么使用setState合适/index.html">
 <meta property="og:site_name" content="Blog">
-<meta property="og:description" content="HTTP POST 方式发送数据给服务器，请求主体的类型由Content-Type指定。在响应中，Content-Type标头告诉客户端实际返回的内容的内容类型 application/x-www-form-urlencoded一般通过HTML form提交的POST请求，在不设置enctype属性的情况下，最终会以application/x-www-form-urlencoded方式提交数据">
+<meta property="og:description" content="12345this.state = &amp;#123;  commentData: [], &amp;#125;// 需要对commentData添加元素 使用一个中间变量1234567setCommentData(comment) &amp;#123;  const commentData = this.state.commentData;  commentData.push(comment);  this.setS">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2019-06-24T05:21:55.898Z">
+<meta property="og:updated_time" content="2019-07-03T02:18:02.894Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="POST常见的提交数据的方式">
-<meta name="twitter:description" content="HTTP POST 方式发送数据给服务器，请求主体的类型由Content-Type指定。在响应中，Content-Type标头告诉客户端实际返回的内容的内容类型 application/x-www-form-urlencoded一般通过HTML form提交的POST请求，在不设置enctype属性的情况下，最终会以application/x-www-form-urlencoded方式提交数据">
+<meta name="twitter:title" content="react中数据为数组时,怎么使用setState合适">
+<meta name="twitter:description" content="12345this.state = &amp;#123;  commentData: [], &amp;#125;// 需要对commentData添加元素 使用一个中间变量1234567setCommentData(comment) &amp;#123;  const commentData = this.state.commentData;  commentData.push(comment);  this.setS">
 
 
 
@@ -120,13 +120,13 @@
 
 
 
-  <link rel="canonical" href="http://yoursite.com/2019/06/20/POST常见的提交数据的方式/">
+  <link rel="canonical" href="http://yoursite.com/2019/07/03/react中数据为数组时-怎么使用setState合适/">
 
 
 
 
 
-  <title>POST常见的提交数据的方式 | Blog</title>
+  <title>react中数据为数组时,怎么使用setState合适 | Blog</title>
   
 
 
@@ -243,7 +243,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/06/20/POST常见的提交数据的方式/">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/07/03/react中数据为数组时-怎么使用setState合适/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Aye">
@@ -260,7 +260,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">POST常见的提交数据的方式</h1>
+          <h1 class="post-title" itemprop="name headline">react中数据为数组时,怎么使用setState合适</h1>
         
 
         <div class="post-meta">
@@ -272,8 +272,8 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2019-06-20T14:04:57+08:00">
-                2019-06-20
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2019-07-03T09:34:23+08:00">
+                2019-07-03
               </time>
             
 
@@ -310,15 +310,11 @@
       
 
       
-        <p>  HTTP POST 方式发送数据给服务器，请求主体的类型由Content-Type指定。在响应中，Content-Type标头告诉客户端实际返回的内容的内容类型</p>
-<h1 id="application-x-www-form-urlencoded"><a href="#application-x-www-form-urlencoded" class="headerlink" title="application/x-www-form-urlencoded"></a>application/x-www-form-urlencoded</h1><p>一般通过HTML form提交的POST请求，在不设置enctype属性的情况下，最终会以application/x-www-form-urlencoded方式提交数据。提交的数据按照 key1=val1&amp;key2=val2 的方式进行编码。<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">Request Headers</span><br><span class="line">-- Content-Type: application/x-www-form-urlencoded;charset=UTF-8;</span><br><span class="line">Form Data</span><br><span class="line">-- xxx</span><br></pre></td></tr></table></figure></p>
-<p>有关提交数据编码方式，以使用axios为例</p>
-<p><a href="https://github.com/axios/axios#browser" target="_blank" rel="noopener">可以使用官方推荐的方式</a><br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line">// 安装 qs</span><br><span class="line">npm install qs </span><br><span class="line"></span><br><span class="line">// 实际代码</span><br><span class="line">import qs from &apos;qs&apos;;</span><br><span class="line">const data = &#123;&apos;bar&apos;: 123&#125;;</span><br><span class="line">const options = &#123;</span><br><span class="line">  method: &apos;POST&apos;,</span><br><span class="line">  headers: &#123; &apos;content-type&apos;: &apos;application/x-www-form-urlencoded&apos; &#125;,</span><br><span class="line">  data: qs.stringify(data),</span><br><span class="line">  url,</span><br><span class="line">&#125;;</span><br><span class="line">axios(options);</span><br></pre></td></tr></table></figure></p>
-<p>也可以自己写拼接函数<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line">const transformReques = (data) =&gt; &#123;</span><br><span class="line">  let result = &apos;&apos;;</span><br><span class="line">  for (let item in data) &#123;</span><br><span class="line">    result +=</span><br><span class="line">      encodeURIComponent(item) + &apos;=&apos; + encodeURIComponent(data[item]) + &apos;&amp;&apos;;</span><br><span class="line">  &#125;</span><br><span class="line">  result = result.substring(0, result.lastIndexOf(&apos;&amp;&apos;));</span><br><span class="line">  return result;</span><br><span class="line">&#125;</span><br><span class="line">const options = &#123;</span><br><span class="line">  ...</span><br><span class="line">  data: transformReques(data),</span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure></p>
-<h1 id="multipart-form-data"><a href="#multipart-form-data" class="headerlink" title="multipart/form-data"></a>multipart/form-data</h1><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">Request Headers</span><br><span class="line">-- Content-Type: Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryp7YxqDJcoX8ZOIW7</span><br><span class="line">Form Data</span><br><span class="line">-- xxx</span><br></pre></td></tr></table></figure>
-<p>有关提交数据编码方式，以使用axios为例<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">let data = new FormData();</span><br><span class="line">data.append(&apos;bar&apos;, &apos;hi&apos;);</span><br><span class="line"></span><br><span class="line">const options = &#123;</span><br><span class="line">  method: &apos;POST&apos;,</span><br><span class="line">  headers: &#123; &apos;content-type&apos;: &apos;multipart/form-data&apos; &#125;,</span><br><span class="line">  data,</span><br><span class="line">  url,</span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure></p>
-<h1 id="application-json"><a href="#application-json" class="headerlink" title="application/json"></a>application/json</h1><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">Request Headers</span><br><span class="line">-- Content-Type: application/json;charset=UTF-8;</span><br><span class="line">Request Payload</span><br><span class="line">-- xxx</span><br></pre></td></tr></table></figure>
-<p>有关提交数据编码方式，以使用axios为例<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">const data = &#123;</span><br><span class="line">  &apos;bar&apos;: &apos;hi&apos;</span><br><span class="line">&#125;;</span><br><span class="line"></span><br><span class="line">const options = &#123;</span><br><span class="line">  method: &apos;POST&apos;,</span><br><span class="line">  headers: &#123; &apos;content-type&apos;: &apos;application/json&apos; &#125;,</span><br><span class="line">  data,</span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure></p>
+        <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">this.state = &#123;</span><br><span class="line">  commentData: [], </span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">// 需要对commentData添加元素</span><br></pre></td></tr></table></figure>
+<h1 id="使用一个中间变量"><a href="#使用一个中间变量" class="headerlink" title="使用一个中间变量"></a>使用一个中间变量</h1><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">setCommentData(comment) &#123;</span><br><span class="line">  const commentData = this.state.commentData;</span><br><span class="line">  commentData.push(comment);</span><br><span class="line">  this.setState(&#123;</span><br><span class="line">    commentData</span><br><span class="line">  &#125;)</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h1 id="其他处理"><a href="#其他处理" class="headerlink" title="其他处理"></a>其他处理</h1><h2 id="对象扩展符…"><a href="#对象扩展符…" class="headerlink" title="对象扩展符…"></a>对象扩展符…</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">this.setState( preState =&gt; &#123;</span><br><span class="line">  return &#123;</span><br><span class="line">    commentData: [...preState.commentData, comment]</span><br><span class="line">  &#125;</span><br><span class="line">&#125;)</span><br></pre></td></tr></table></figure>
+<h2 id="Array-concat"><a href="#Array-concat" class="headerlink" title="Array.concat"></a>Array.concat</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">this.setState(preState =&gt; (&#123;</span><br><span class="line">  commentData: preState.commentData.concat([comment])</span><br><span class="line">&#125;))</span><br></pre></td></tr></table></figure>
+<h2 id="使用库-如：ImmutableJS"><a href="#使用库-如：ImmutableJS" class="headerlink" title="使用库 如：ImmutableJS"></a>使用库 如：ImmutableJS</h2><p><a href="https://immutable-js.github.io/immutable-js/docs/#/" target="_blank" rel="noopener">ImmutableJS官方文档</a></p>
 
       
     </div>
@@ -336,7 +332,7 @@
       
         <div class="post-tags">
           
-            <a href="/tags/HTTP/" rel="tag"># HTTP</a>
+            <a href="/tags/react/" rel="tag"># react</a>
           
         </div>
       
@@ -349,8 +345,8 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/2019/05/06/hello-world/" rel="next" title="Hello World">
-                <i class="fa fa-chevron-left"></i> Hello World
+              <a href="/2019/06/21/typescript初识/" rel="next" title="typescript初识">
+                <i class="fa fa-chevron-left"></i> typescript初识
               </a>
             
           </div>
@@ -358,10 +354,6 @@
           <span class="post-nav-divider"></span>
 
           <div class="post-nav-prev post-nav-item">
-            
-              <a href="/2019/06/21/typescript初识/" rel="prev" title="typescript初识">
-                typescript初识 <i class="fa fa-chevron-right"></i>
-              </a>
             
           </div>
         </div>
@@ -484,7 +476,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#application-x-www-form-urlencoded"><span class="nav-number">1.</span> <span class="nav-text">application/x-www-form-urlencoded</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#multipart-form-data"><span class="nav-number">2.</span> <span class="nav-text">multipart/form-data</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#application-json"><span class="nav-number">3.</span> <span class="nav-text">application/json</span></a></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#使用一个中间变量"><span class="nav-number">1.</span> <span class="nav-text">使用一个中间变量</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#其他处理"><span class="nav-number">2.</span> <span class="nav-text">其他处理</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#对象扩展符…"><span class="nav-number">2.1.</span> <span class="nav-text">对象扩展符…</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Array-concat"><span class="nav-number">2.2.</span> <span class="nav-text">Array.concat</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#使用库-如：ImmutableJS"><span class="nav-number">2.3.</span> <span class="nav-text">使用库 如：ImmutableJS</span></a></li></ol></li></ol></div>
             
 
           </div>
