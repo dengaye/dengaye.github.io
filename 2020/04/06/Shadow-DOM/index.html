@@ -68,7 +68,7 @@
 
 
 
-  <meta name="keywords" content="hexo,">
+  <meta name="keywords" content="DOM,Shadow DOM,">
 
 
 
@@ -79,18 +79,21 @@
 
 
 
-<meta name="description" content="用hexo new 文件名 生成的博客，在source/_posts/ 下删除完博客后，发现并没有真正删除，需要要以下步骤：  删除项目根目录下面的 db.json 文件 hexo g 再推到服务器上">
-<meta name="keywords" content="hexo">
+<meta name="description" content="Shadow DOM 允许在document渲染时插入一个DOM元素子树，但是这棵子树并不在DOM树中，开发者可以利用Shadow DOM封装自己的HTML标签、CSS样式和JavaScript代码。  浏览器中如在Safari中input type=”password”标签会自动有一个小锁的的图标，本意上是让用户可以从这里选择相应的 用户名/密码 进行自动填充，但是在某些场景下需要将其隐藏，可">
+<meta name="keywords" content="DOM,Shadow DOM">
 <meta property="og:type" content="article">
-<meta property="og:title" content="hexo删除文章">
-<meta property="og:url" content="http://yoursite.com/2019/07/04/hexo删除文章/index.html">
+<meta property="og:title" content="Shadow DOM">
+<meta property="og:url" content="http://yoursite.com/2020/04/06/Shadow-DOM/index.html">
 <meta property="og:site_name" content="Blog">
-<meta property="og:description" content="用hexo new 文件名 生成的博客，在source/_posts/ 下删除完博客后，发现并没有真正删除，需要要以下步骤：  删除项目根目录下面的 db.json 文件 hexo g 再推到服务器上">
+<meta property="og:description" content="Shadow DOM 允许在document渲染时插入一个DOM元素子树，但是这棵子树并不在DOM树中，开发者可以利用Shadow DOM封装自己的HTML标签、CSS样式和JavaScript代码。  浏览器中如在Safari中input type=”password”标签会自动有一个小锁的的图标，本意上是让用户可以从这里选择相应的 用户名/密码 进行自动填充，但是在某些场景下需要将其隐藏，可">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2019-07-04T06:52:32.269Z">
+<meta property="og:image" content="https://dengaye.github.io/images/blog/input-shadow-dom.png">
+<meta property="og:image" content="https://dengaye.github.io/images/blog/shadow-dom-console.png">
+<meta property="og:updated_time" content="2020-04-06T09:07:37.432Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="hexo删除文章">
-<meta name="twitter:description" content="用hexo new 文件名 生成的博客，在source/_posts/ 下删除完博客后，发现并没有真正删除，需要要以下步骤：  删除项目根目录下面的 db.json 文件 hexo g 再推到服务器上">
+<meta name="twitter:title" content="Shadow DOM">
+<meta name="twitter:description" content="Shadow DOM 允许在document渲染时插入一个DOM元素子树，但是这棵子树并不在DOM树中，开发者可以利用Shadow DOM封装自己的HTML标签、CSS样式和JavaScript代码。  浏览器中如在Safari中input type=”password”标签会自动有一个小锁的的图标，本意上是让用户可以从这里选择相应的 用户名/密码 进行自动填充，但是在某些场景下需要将其隐藏，可">
+<meta name="twitter:image" content="https://dengaye.github.io/images/blog/input-shadow-dom.png">
 
 
 
@@ -120,13 +123,13 @@
 
 
 
-  <link rel="canonical" href="http://yoursite.com/2019/07/04/hexo删除文章/">
+  <link rel="canonical" href="http://yoursite.com/2020/04/06/Shadow-DOM/">
 
 
 
 
 
-  <title>hexo删除文章 | Blog</title>
+  <title>Shadow DOM | Blog</title>
   
 
 
@@ -243,7 +246,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/07/04/hexo删除文章/">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2020/04/06/Shadow-DOM/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Aye">
@@ -260,7 +263,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">hexo删除文章</h1>
+          <h1 class="post-title" itemprop="name headline">Shadow DOM</h1>
         
 
         <div class="post-meta">
@@ -272,8 +275,8 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2019-07-04T14:00:30+08:00">
-                2019-07-04
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2020-04-06T16:43:52+08:00">
+                2020-04-06
               </time>
             
 
@@ -311,13 +314,13 @@
 
       
         <blockquote>
-<p>用hexo new 文件名 生成的博客，在source/_posts/ 下删除完博客后，发现并没有真正删除，需要要以下步骤：</p>
-<ul>
-<li>删除项目根目录下面的 db.json 文件</li>
-<li>hexo g</li>
-<li>再推到服务器上</li>
-</ul>
+<p>Shadow DOM 允许在document渲染时插入一个DOM元素子树，但是这棵子树并不在DOM树中，开发者可以利用Shadow DOM封装自己的HTML标签、CSS样式和JavaScript代码。</p>
 </blockquote>
+<h1 id="浏览器中"><a href="#浏览器中" class="headerlink" title="浏览器中"></a>浏览器中</h1><p>如在Safari中input type=”password”标签会自动有一个小锁的的图标，本意上是让用户可以从这里选择相应的 用户名/密码 进行自动填充，但是在某些场景下需要将其隐藏，可能是出于安全考虑，也可能是UI样式方面的考虑。</p>
+<p><img src="https://dengaye.github.io/images/blog/input-shadow-dom.png" alt="input"></p>
+<p>解决方法：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">input::-webkit-credentials-auto-fill-button &#123;</span><br><span class="line">	display: none !important;</span><br><span class="line">	visibility: hidden;</span><br><span class="line">	pointer-events: none;</span><br><span class="line">	position: absolute; /* 避免占用 input 元素额外的 padding，正常情况下存在 display: none!; 就可以了 */</span><br><span class="line">	right: 0;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></p>
+<p>其它标签，如video，使用video时，页面会出现很多元素，如下载按钮、全屏等等。</p>
+<h2 id="调试"><a href="#调试" class="headerlink" title="调试"></a>调试</h2><p>在Safari中可以打开显示Shadown DOM的开关<br><img src="https://dengaye.github.io/images/blog/shadow-dom-console.png" alt="Shadow DOM"></p>
 
       
     </div>
@@ -335,7 +338,9 @@
       
         <div class="post-tags">
           
-            <a href="/tags/hexo/" rel="tag"># hexo</a>
+            <a href="/tags/DOM/" rel="tag"># DOM</a>
+          
+            <a href="/tags/Shadow-DOM/" rel="tag"># Shadow DOM</a>
           
         </div>
       
@@ -348,8 +353,8 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/2019/07/03/react中数据为数组时-怎么使用setState合适/" rel="next" title="react中数据为数组时,怎么使用setState合适">
-                <i class="fa fa-chevron-left"></i> react中数据为数组时,怎么使用setState合适
+              <a href="/2019/10/11/webpack+react搭建多页面应用/" rel="next" title="webpack+react搭建多页面应用">
+                <i class="fa fa-chevron-left"></i> webpack+react搭建多页面应用
               </a>
             
           </div>
@@ -357,10 +362,6 @@
           <span class="post-nav-divider"></span>
 
           <div class="post-nav-prev post-nav-item">
-            
-              <a href="/2019/07/04/mixins使用/" rel="prev" title="mixins使用">
-                mixins使用 <i class="fa fa-chevron-right"></i>
-              </a>
             
           </div>
         </div>
@@ -412,8 +413,17 @@
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
+            站点概览
+          </li>
+        </ul>
+      
 
-      <section class="site-overview-wrap sidebar-panel sidebar-panel-active">
+      <section class="site-overview-wrap sidebar-panel">
         <div class="site-overview">
           <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
             
@@ -464,6 +474,22 @@
         </div>
       </section>
 
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#浏览器中"><span class="nav-number">1.</span> <span class="nav-text">浏览器中</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#调试"><span class="nav-number">1.1.</span> <span class="nav-text">调试</span></a></li></ol></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
       
 
       
